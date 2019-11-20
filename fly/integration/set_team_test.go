@@ -492,7 +492,7 @@ var _ = Describe("Fly CLI", func() {
 
 			Context("Setting cf auth", func() {
 				BeforeEach(func() {
-					cmdParams = []string{"--cf-org", "myorg-1", "--cf-space", "myorg-2:myspace", "--cf-user", "my-username", "--cf-space-guid", "myspace-guid"}
+					cmdParams = []string{"--cf-insecure-org", "myorg-1", "--cf-insecure-space", "myorg-2:myspace", "--cf-user", "my-username", "--cf-space-guid", "myspace-guid"}
 				})
 
 				It("shows the users and groups configured for cf auth", func() {
