@@ -5,6 +5,7 @@ CI/CD, and is built to scale to any kind of automation pipeline, from simple to
 complex.
 
 ![booklit pipeline](screenshots/booklit-pipeline.png)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpunalpatel%2Fconcourse.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpunalpatel%2Fconcourse?ref=badge_shield)
 
 Concourse is very opinionated about a few things: idempotency, immutability,
 declarative config, stateless workers, and reproducible builds.
@@ -97,3 +98,7 @@ work).
 
 It's a lot of work, and we need your help! If you're interested, check out our
 [contributing docs](CONTRIBUTING.md).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpunalpatel%2Fconcourse.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpunalpatel%2Fconcourse?ref=badge_large)
